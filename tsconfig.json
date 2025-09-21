@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* --- Estrutura do Projeto --- */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* --- Sistema de Módulos --- */
+    "module": "commonjs",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    
+    /* --- Requisitos do TypeORM --- */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    
+    /* --- Checagem de Tipos (Strict Mode) --- */
+    "strict": true,
+    "skipLibCheck": true,
+    
+    /* --- Depuração --- */
+    "sourceMap": true,
+
+    /* --- Configurações Adicionais --- */
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
